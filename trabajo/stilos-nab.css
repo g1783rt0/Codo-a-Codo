@@ -1,0 +1,280 @@
+/*estilos generales*/
+*{
+    box-sizing: 0;
+    
+}
+
+body{
+    background-image: url(/Codo-a--Codo/trabajo/img-codo/descarga.jpg);
+}
+
+header{
+width: auto;
+height: 600px;
+margin-bottom: 90px;
+
+}
+h2{
+    font-family: 'Croissant One', cursive;
+}
+p{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.2rem;
+}
+
+.seccion-oscura{
+    color: rgb(251, 249, 249);
+    background-color: #090909c9;
+    
+    
+    
+}
+.seccion-clara{
+    color: rgb(10, 10, 10);
+    background-color: #ffffffd1;
+}
+.seccion-footer{
+    color: rgb(251, 249, 249);
+    background-color: #090909;
+}
+/* barra de navegacion */
+.navbar {
+    
+    background-color: #080808;
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    width: 70%;
+      
+}
+.logo-eslogan{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+a .logo{ 
+    background-color: #fdfdfd;
+    border-radius:50%;
+    width: 4rem;
+    height: auto;
+    
+}
+.eslogan {
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;/*
+    font-family: 'Croissant One', cursive;*/
+    font-size: 40px; 
+    padding-left: 10%;
+    width: 100%;
+    height: auto;
+    border-left: solid rgb(248, 244, 247) 2px;
+    color: rgb(254, 253, 254);
+    
+}
+.eslogan a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+.navbar a{
+    
+    transition: all 0,2s ease-in-out;
+    border-radius: 5px;
+    
+}
+
+li{
+    
+    width: auto;
+}
+.li-registro{
+    width: 120px;
+}
+.navbar li a{
+    
+    color: rgb(244, 240, 240);
+    
+}
+.navbar li a:hover{
+    
+    color: rgb(244, 240, 240);
+    
+    box-shadow: 1px 1px 1px 1px inset #615d62f2;
+    background-color:rgba(215, 0, 119, 0.808) ; 
+   
+
+}
+
+
+
+
+/*slider portada*/
+.carousel-inner .carousel-item{
+    background: rgba(215, 0, 119, 0.405);
+    background:url(../img-modelo-p/verano.png),linear-gradient(to right,rgba(19, 97, 206, 0.527), rgba(215, 0, 119, 0.405));
+
+    background:url(../img-modelo-p/verano.png),-webkit-linear-gradient(to right,rgba(19, 97, 206, 0.458), rgba(215, 0, 119, 0.405));
+    
+}
+.carousel-inner img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+/*titulos slide*/
+.slide-titulo-1{
+    font-family: 'Croissant One', cursive;
+    font-size: 60px;
+    color:rgba(9, 80, 244, 0.885);
+    
+}
+.slide-titulo-2{
+    font-family: 'Croissant One', cursive;
+    font-size: 60px;
+    color:rgb(234, 156, 11);
+    
+}
+.slide-titulo-3{
+    font-family: 'Croissant One', cursive;
+    font-size: 60px;
+    color:rgba(234, 20, 9, 0.994);
+    
+}
+
+/*wave*/
+.wave{
+    
+    position:relative;
+    bottom: 90px;
+}
+
+
+
+/*sec-3 materiales de calidad*/
+
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    
+}
+/*parrafo */
+.sec-3 .texto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.texto p{
+    color: rgb(244, 199, 18);
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+   
+    
+}
+
+
+.div-sec-3{
+    width: 100%;
+    height: 600px;
+    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.div-sec-3 p{
+    width: 50%;
+    height: 600px;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+    color:#020210
+    
+}
+.div-sec-3:hover p{
+    width: 50%;
+    height: 70%;
+    font-size: 5rem;    
+    color: rgb(210, 0, 119);
+    transition: all .2s ease-in;
+    border: solid yellow 1px
+    
+    
+}
+.div-sec-3 img{
+    
+    width: 350px;
+    height: 600px;
+    
+    position: absolute;
+    transition: all .2s ease-in;
+    border-radius: 10%;
+    border: solid rgb(0, 208, 255) 1px;
+    
+    
+}
+
+.div-sec-3:hover img{
+    
+    
+    height: 600px;
+    position: relative;
+    transition: all .2s ease-in;
+    border: solid rgb(8, 0, 255) 2px;
+}
+.d-2{
+   width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: solid rgb(0, 255, 72) 1px;
+    
+}
+.div-sec-3:hover .d-2{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+
+/*sec-3 mteriales de calidad fin */
+/*media qery*/
+
+header{
+    width: auto;
+}
