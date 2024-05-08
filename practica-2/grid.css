@@ -1,0 +1,29 @@
+div{
+    border: solid 1px grey;
+    padding: 5px;
+    color: antiquewhite;
+    background-color: aliceblue;
+    
+
+}
+
+section> div:hover{
+    border: solid 2px yellow;
+    background-color: brown;
+
+}
+
+.container{
+    display: grid;
+    border: solid red 1px;
+    padding: 5px;
+    grid-template-columns: 24% 24% 24% 24%;
+    
+    
+
+}
+.opsional{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+}
