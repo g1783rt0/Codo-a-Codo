@@ -63,17 +63,7 @@ while (x <= 10) {
 
 /*clse 15 24 de abril */
 
-let str= prompt("ingrese el texto");
-    function invertirTex(str){
-        let dividir= str.split("");
-        console.log(dividir);
-        let r=rever.reverse();
-        console.log(r);
-        let t = r.join("");
-        console.log(t);
-        return t;
-    }
-
+let x = "hola";
     
   
   
