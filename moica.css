@@ -1,0 +1,82 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.d-flex{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
+
+.contenedor{
+    background-color: black;
+    
+    padding: 20px;   
+    
+}
+
+.img-medidor{
+min-width: 400px;
+
+
+}
+h1{
+    color: blue;
+    font-size: medium;
+    
+    font: 5em sans-serif;
+}
+h3{
+    position:sticky;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+
+}
+h4{
+    position:sticky;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+
+}
+.medidicones{
+    
+    width: 300px;
+    height: 460px;
+    border: solid red 1px;
+    position: absolute;
+    margin-top: 90px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.623);
+    
+    
+}
+.item{
+    width: 90%;
+    height: 49px;
+    border-radius: 5%;
+    
+    background-image: url('/img-medidor/pantalla-notificacion.png');
+   
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+    
+    
+
+}
+.item img{
+    width: 100%;
+    
+}
